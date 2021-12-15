@@ -1,6 +1,6 @@
 <?php 
 	require '../rb/rb.php';
-	R::setup('mysql:host=localhost;dbname=vlad1013374_mail','vlad1013374_vladislav', 'rb049674');	
+	R::setup('mysql:host=localhost;dbname=vlad1013374_mail','login', 'password');	
 
 	$week = $_GET['week'];
 
